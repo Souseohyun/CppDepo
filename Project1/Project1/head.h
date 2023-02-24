@@ -1,5 +1,8 @@
 #pragma once
 #include<iostream>
+namespace myspace {
+	const char* GetVersion();
+}
 
-extern "C" void hi_func();
-void hello_func();
+
+
